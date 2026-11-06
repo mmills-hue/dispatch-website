@@ -1,0 +1,9 @@
+# dispatch. — https://dispatchco.io
+# All crawlers, including AI search and answer engines
+# (OAI-SearchBot, ChatGPT-User, PerplexityBot, ClaudeBot, Googlebot, Bingbot), are welcome.
+
+User-agent: *
+Allow: /
+Disallow: /thanks.html
+
+Sitemap: https://dispatchco.io/sitemap.xml
