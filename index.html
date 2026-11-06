@@ -24,6 +24,82 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://dispatchco.io/#organization",
+      "name": "dispatch.",
+      "alternateName": "dispatch",
+      "url": "https://dispatchco.io/",
+      "logo": "https://dispatchco.io/assets/favicon.png",
+      "image": "https://dispatchco.io/assets/og-image.png",
+      "description": "dispatch. is an independent marketing agency for franchise and multi-location brands. It brings creative, strategy and performance together to help brands grow nationally and win locally.",
+      "disambiguatingDescription": "A marketing agency for franchise and multi-location brands, not dispatch, scheduling or field-service software.",
+      "email": "mitch@dispatchco.io",
+      "foundingDate": "2026-11-05",
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Detroit, Michigan"
+      },
+      "founder": { "@id": "https://dispatchco.io/#mitchell-mills" },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Detroit",
+        "addressRegion": "MI",
+        "addressCountry": "US"
+      },
+      "areaServed": { "@type": "Country", "name": "United States" },
+      "knowsAbout": [
+        "Franchise marketing",
+        "Multi-location marketing",
+        "Local marketing",
+        "Paid media",
+        "Creative development",
+        "Campaign management",
+        "Marketing measurement and reporting"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Marketing services for franchise and multi-location brands",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Paid Media", "description": "Search, social and local ads placed where customers look, with budgets that follow what's working." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Creative Development", "description": "Ads, landing pages and assets built to be tested and refreshed." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local Marketing Strategy", "description": "A plan for each market, rooted in the brand and shaped by local competition and demand." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Campaign Management", "description": "Launches, budget changes and updates handled on a set rhythm across every location." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Measurement & Reporting", "description": "Clear numbers by location and by program." } },
+          { "@type": "Offer", "price": "0", "priceCurrency": "USD", "itemOffered": { "@type": "Service", "name": "Free marketing audit", "description": "A no-cost, location-by-location review of campaign setup, creative, local presence and reporting." } }
+        ]
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://dispatchco.io/#mitchell-mills",
+      "name": "Mitchell Mills",
+      "jobTitle": "Founder",
+      "worksFor": { "@id": "https://dispatchco.io/#organization" },
+      "homeLocation": { "@type": "Place", "name": "Detroit, Michigan" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://dispatchco.io/#website",
+      "url": "https://dispatchco.io/",
+      "name": "dispatch.",
+      "publisher": { "@id": "https://dispatchco.io/#organization" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://dispatchco.io/#webpage",
+      "url": "https://dispatchco.io/",
+      "name": "dispatch. | Franchise & Multi-Location Marketing Agency",
+      "isPartOf": { "@id": "https://dispatchco.io/#website" },
+      "about": { "@id": "https://dispatchco.io/#organization" }
+    }
+  ]
+}
+</script>
 <style>
   :root{--bg:#FAFAFA;--ink:#111111;--body:#444444;--muted:#555555;--line:#E5E5E5;--white:#FFFFFF}
   *{box-sizing:border-box}
@@ -205,6 +281,7 @@
       <div class="body">
         <h2>Built for brands going places.</h2>
         <p>Marketing across multiple locations is complicated. We don't think it has to be. dispatch. was built to combine the speed and creativity of a modern agency with the strategy and precision of a performance partner. We bring fresh creative, local market expertise, and disciplined execution together to help franchise and multi-location brands move faster, connect with customers, and grow at scale.</p>
+        <p>dispatch. was founded in Detroit, Michigan in 2026 by Mitchell Mills.</p>
       </div>
     </div>
   </section>
@@ -227,6 +304,7 @@
           <label>I'm a…<select name="role" required><option value="">Select one</option><option>Franchisor / corporate team</option><option>Franchisee</option><option>Multi-location business</option></select></label>
           <label>Number of locations<select name="locations"><option value="">Select one</option><option>1</option><option>2–10</option><option>11–50</option><option>51+</option></select></label>
           <label>Website<input type="url" name="website" placeholder="https://"></label>
+          <label>How did you find us?<select name="source"><option value="">Select one</option><option>Search engine (Google, Bing)</option><option>AI assistant (ChatGPT, Perplexity, Gemini, Claude)</option><option>LinkedIn</option><option>Referral</option><option>Other</option></select></label>
           <label class="full">What should we look at?<textarea name="message" rows="4"></textarea></label>
           <button class="btn btn-primary" type="submit">Request a free audit</button>
           <p class="form-note">We'll only use your details to respond to your request.</p>
@@ -242,7 +320,7 @@
       <svg width="24" height="20" viewBox="6 11 52 42" aria-hidden="true"><path d="M6 33 L58 11 L47 20 L17 36 Z" fill="currentColor"/><path d="M14 41 L41 25.5 L25 37.5 L24.5 47 Z" fill="currentColor"/><path d="M57.5 12.5 L39 53 L30 42 L46 23 Z" fill="currentColor"/></svg>
       <span>dispatch.</span>
     </a>
-    <p>An independent franchise and multi-location marketing agency.</p>
+    <p>An independent franchise and multi-location marketing agency based in Detroit, MI.</p>
     <nav aria-label="Footer">
       <a href="mailto:mitch@dispatchco.io">mitch@dispatchco.io</a>
       <a href="privacy.html">Privacy policy</a>
